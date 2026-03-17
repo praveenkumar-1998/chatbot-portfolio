@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-
 export default function App() {
   const [messages, setMessages] = useState([
     { text: "Hi, I'm Praveenkumar 👋", sender: "bot" },
@@ -55,7 +54,7 @@ export default function App() {
     // 👉 Resume download
     if (option === "Download Resume") {
       const link = document.createElement("a");
-      link.href = "/Praveenkumar_Resume.pdf";
+      link.href = `${import.meta.env.BASE_URL}${import.meta.env.VITE_RESUME_PATH}`;
       link.download = "Praveenkumar_Resume.pdf";
       link.click();
       return;
