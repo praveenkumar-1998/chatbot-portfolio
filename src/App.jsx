@@ -55,7 +55,7 @@ export default function App() {
     if (option === "Download Resume") {
       const link = document.createElement("a");
       link.href = `${import.meta.env.BASE_URL}${import.meta.env.VITE_RESUME_PATH}`;
-      link.download = "Praveenkumar_Resume.pdf";
+      link.download = "PraveenKumar_Resume.pdf";
       link.click();
       return;
     }
