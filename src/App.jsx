@@ -27,7 +27,7 @@ export default function App() {
   const getResponse = (option) => {
     switch (option) {
       case "About Me":
-        return "Full Stack Developer with 2.7+ years experience in React.js, React Native, Node.js, and MongoDB.";
+        return "Full Stack Developer with 3+ years experience in React.js, React Native, Node.js, and MongoDB.";
 
       case "Experience":
         return "Currently working at Sankara Software Solutions. Built scalable apps like Resilink (500+ users) and Project Hub.";
